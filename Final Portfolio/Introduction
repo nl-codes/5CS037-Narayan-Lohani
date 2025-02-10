@@ -1,0 +1,18 @@
+Landslide Prediction: Regression & Classification
+This project builds machine learning models to predict landslides.
+
+Regression Task
+Target: Rainfall_mm
+Models: Linear Regression, Random Forest
+Optimization: Hyperparameter tuning
+
+Classification Task
+Target: landslide_size
+Models: Decision Tree, Random Forest
+Optimization: GridSearchCV, Recursive Feature Elimination
+
+Evaluation
+Metrics: RMSE, MAE (Regression), Accuracy, ClassificationReport, Confusion Matrix (Classification)
+
+Requirements
+Python, Scikit-learn, Pandas, NumPy, Matplotlib
